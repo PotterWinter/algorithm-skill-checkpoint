@@ -14,7 +14,7 @@ Answer: the Big O notation is Logn because the function has algorythm loop for b
 
 /* 
 Which function is more efficient and why?
-Answer:
+Answer: the second function because when loop can't found answer algorithm will cut half of array and drop the side of array we don't need
 
 
 */

@@ -7,9 +7,6 @@ function findProductPrice(products, name) {
   }
   return -1
 
-  // let left = 0;
-  // let right = products.length - 1;
-
   // for (let i = 0; i < products.length; i++) {
   //   let mid = Math.floor((left + right) / 2);
   //   console.log(mid)
@@ -21,6 +18,20 @@ function findProductPrice(products, name) {
   //     right = mid - 1;
   //   }
   // }
+  // let left = 0;
+  // let right = products.length - 1;
+
+  // while (left <= right) {
+  //   let mid = Math.floor((left + right) / 2);
+  //   if (products[mid].name === name) {
+  //     return products[mid].price;
+  //   } else if (products[mid].name < name) {
+  //     left = mid + 1;
+  //   } else {
+  //     right = mid - 1;
+  //   }
+  // }
+
   // return -1;
 }
 
